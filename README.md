@@ -1,5 +1,6 @@
 wkhtmltopdf
 ================
+**!--- amd64 build working for Ubuntu 20.04+ ---!**
 
 This repository contains the static compiled binaries from the [wkhtmltopdf project](http://wkhtmltopdf.org/).
 More about the functionality of wkhtmltopdf and wkthmltoimage can be found there.
@@ -12,7 +13,7 @@ Binaries for __CentOS 7__, also installable with composer, can be found here: [g
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.4'.
+To install the latest version, use '0.12.6'.
 
 ### Packagist
 
@@ -24,7 +25,7 @@ Require the package for _i386_ with:
 
 And for _amd64_ with:
 
-    php composer.phar require zendre4/wkhtmltopdf-amd64 "0.12.4"
+    php composer.phar require zendre4/wkhtmltopdf-amd64 "0.12.6"
 
 The binary will then be located at:
 
